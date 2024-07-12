@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvécia, sans-serif;
+  border: none;
+  outline: none;
 }
 
 html, body {
@@ -65,7 +67,6 @@ div#form input{
   padding: 8px;
   background-color: #fff3db;
   color: #573b24;
-  border: none;
   border-radius: 10px;
   width: 195px;
 }
