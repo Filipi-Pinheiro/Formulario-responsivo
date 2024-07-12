@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+  body{
+    background-image: linear-gradient( to top, #fff, #ffe1a1)
+  }
+  
+  section{
+    display: flex;
+    width: 80vw;
+    height: 460px;
+  }
+  
+  div#img{
+    width: 35%;
+    height: 100%;
+  }
+
+  div#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 100%;
+  }
+
+  div#form input{
+    width: 320px;
+  }
+
+  div#form .dest{
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 900px;
+  }
+  
+  div#img{
+    width: 50%;
+    height: 100%;
+  }
+
+  div#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 100%;
+  }
+
+  div#form input{
+    width: 320px;
+  }
+
+  div#form .dest{
+    width: 375px;
+  }
+
+  div#form h1{
+    font-size: 2.2em;
+  }
+
+  div#form p{
+    font-size: 1em;
+  }
